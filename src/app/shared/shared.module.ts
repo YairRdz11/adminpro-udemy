@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 //Components
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { NpagefoundComponent } from './nopagefound/npagefound.component';
@@ -15,6 +16,7 @@ import { HeaderComponent } from './header/header.component';
     ],
     imports: [ 
         CommonModule,
+        RouterModule
     ],
     exports: [
         BreadcrumbsComponent,

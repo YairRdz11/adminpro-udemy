@@ -16,6 +16,7 @@ import { GraficaDonaComponent } from '../components/grafica-dona/grafica-dona.co
 import { SharedModule } from '../shared/shared.module';
 //Rutas
 import { PAGES_ROUTES } from './pages.routes';
+import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
 
 @NgModule({
     declarations: [
@@ -25,6 +26,7 @@ import { PAGES_ROUTES } from './pages.routes';
         Graficas1Component,
         IncrementadorComponent,
         GraficaDonaComponent,
+        AccoutSettingsComponent,
     ],
     imports: [ 
         CommonModule,
