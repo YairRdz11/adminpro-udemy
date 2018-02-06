@@ -17,6 +17,8 @@ import { SharedModule } from '../shared/shared.module';
 //Rutas
 import { PAGES_ROUTES } from './pages.routes';
 import { AccoutSettingsComponent } from './accout-settings/accout-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations: [
@@ -27,6 +29,8 @@ import { AccoutSettingsComponent } from './accout-settings/accout-settings.compo
         IncrementadorComponent,
         GraficaDonaComponent,
         AccoutSettingsComponent,
+        PromesasComponent,
+        RxjsComponent,
     ],
     imports: [ 
         CommonModule,
